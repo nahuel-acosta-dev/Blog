@@ -1,5 +1,5 @@
 import {RequestHandler} from 'express';
-import Category from './category';
+import Category from '../routes/category';
 
 
 export const getCategories: RequestHandler = async (req, res) => {
