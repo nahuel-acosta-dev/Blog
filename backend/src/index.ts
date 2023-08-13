@@ -1,6 +1,6 @@
 import app from './app';
 import './database';
 
-app.listen(8000,() => {
+app.listen(app.get('port'),() => {
     console.log('sever on port 8000')
 })
