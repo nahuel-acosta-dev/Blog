@@ -1,4 +1,7 @@
+import {getModelForClass, modelOptions, prop} from "@typegoose/typegoose"
 import {Schema, model, models} from 'mongoose';
+
+
 
 const categorySchema = new Schema({
     title: {
